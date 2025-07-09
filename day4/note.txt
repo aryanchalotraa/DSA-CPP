@@ -1,0 +1,72 @@
+why  are we here?
+why do we need skill.
+  in-order to join corporate.
+  
+learn java script : versatile /slow 
+java / :   more versatile syatem programming .it is may or may not be oops
+python. : programer friendly.very slow/poor at mobile app/ bad at server/ bad with error 
+cpp :similar to java .
+c#:c sharp  
+
+
+kuwar singh
+thekuwarsingh
+expert.datascientist.ai@gmail.com
+
+
+   dsa:
+   primitive and non primitive storage type
+   function
+
+
+
+
+//sytem information
+//memory management information
+//Built-in information
+//imporant declarration dec[n]
+
+
+#include<iostream>
+//symbolic Constant Dec[n] define the symbol which can use for computation . that symbol can 
+//Pre-Processor declarration system and memoery info
+//function  Prototype Dec[n] need to declare the before the main and can define after the main
+
+
+//namespace dec[n]: 
+main dec[n]{
+  printf("hello",);
+  std::cout<<"hello, bolo"; 
+  return 0;
+}
+
+
+//primitive and non primitive storage 
+how data type and structure are diffrenet
+
+
+DataType :
+C++ two type:
+primitive and non primitive
+
+primitive:
+          two type:
+          1) numeric :
+            two type:
+            exact--sometime bool(c++) and approx
+            int-- sometime bool(c++)    |   approx is of two type:single : float single precision format
+                                              double:double double precision format
+
+ 
+          2)non numeric :  char, wide char 
+          3) void
+
+non primitive :drived and user drived 
+      drived    : array,function ,pointer,cPP:refrences(C++),
+
+
+      ->user drived type diff ,union ,structure,class ,enum
+
+//cluster :hashmap
+
+copy construcutre: deep copy and shallow copy

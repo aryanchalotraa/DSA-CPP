@@ -1,0 +1,29 @@
+constructor : are same as function define inside class and function name must be same as class name.
+ -constructor did not have any return type.
+ - we can not call constructor function, it was invoke when onject of clss is created.
+ - constructor can be overload.
+
+
+
+ -Type of constructor:
+    1 DEfault constructor / non parametrized constructor:
+    constructor did not have any parameter is called default constructor.
+
+  2 Default constructor.
+  :Constructor habing parameter is called parameterized constructor
+
+  3 copy constructor
+  : A constructor that initialized an object using another onject of the same class.
+  if we dont define copy constructor then compiler define it for us.
+
+  Distructor:
+  it is use to distroy the object.
+   -in other word it dellocate memory allocated by constructor.
+
+this kwyword:
+this keyword is a constant keyword which conatain address of current onject.
+   
+
+   static data member:
+   it define using static keyword
+   -when static is used with data member in a class,it makes the variable shared among all instances of the class.   

@@ -1,0 +1,48 @@
+variable same as container to store any datatype
+pointer speacial type of variable which is use to store address of another variable
+
+refrence[&]:
+ it return the address of given variable
+
+de-refrence[*]:
+it return value at given address
+
+types of pointer :null pointer:
+    pointer initialize with nullptr is called Null pointer
+     -it is good practice to intilaze pointer with Null to avoid wild pointer.
+
+     void pointer : pointer define using void keyword is called void pointer
+     sytax:
+     void *ptr_name =NULL;
+
+     it is also called generic pointer
+
+
+     dangling pointer:
+     pointer which indicate memory which is dealloated.
+
+
+     constant variable:
+     constent variable is define using const keywoed
+      -we can not override the value of cinstant variable 
+      sytax : const int num =20;
+              int *ptr =&num
+
+
+      constant pointer :
+      constant pointer is same as constant variable:
+      sytax :cost data_type * ptr_name =& variable_name;
+
+
+pointer to pointer :
+it also know as double pointer ,  use to store address of any pointer:
+sytax:data_type ** pointer_name = & another_pointer_name;
+
+
+pointer to function:
+  pointer which indicate address of function
+
+
+
+Array:
+        
