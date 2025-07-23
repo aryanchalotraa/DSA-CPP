@@ -1,0 +1,76 @@
+Mergre sort:
+merge sort is devide and conquer alogo that:
+divide the input array into two halves
+recursively sort themmerge the sorted halves to produce the final sorted array.
+ algo:
+ divide the array into two halves until each subarray has 1 element.
+ conquer by recursivly sorting the subarray.
+ combine by merging two sortedd array into one.
+
+  complexity:
+  o(nlog n)
+
+  space complexity:
+  o(n)in every case.
+
+quick sort:
+quick sort is a divide and conquer sorting alogorithm -
+- it picks an element as a pivot and partition the arrays around the pivot.
+ algo:
+ choose a pivot (usaally the element of the array).
+  - partition THE ARRAY:  
+       - move all elemeent smaller than pivot to left.
+        - move all element grater tan pivot to right.
+  place the pivot int this correct position 
+  recusively apply the same logic for the left and right subarray.
+
+  Time complexityo(nlog n) worst o(n^2)
+space complexity o(logn)
+
+
+
+Tree:
+  tree structure is a hierachical structure that consist of node s connectes by edgs. it is widely used abstract data type that simulates a hieracal treee structure, with root value and subtree of children.
+  Node:each element in tree is called n node. it contain a value or data.
+
+  Root: the topmost node in the tree is called the root.
+        -it is the only node that has no parent.
+
+  Edge:The connection between nodes is called an edge.
+
+  Child: A node is directly connected to another node which moving away from the root is called child.
+
+  Parent: A node that has one or more child node is called a parent.
+
+  Leaf: A node that does not have any child is called a leaf or terminal node.
+
+  # tree traversing:
+   there are mainly two type of traversing in a tree:
+   1 DFS:Depth first Search it explore as far as possible along each branch before backtracking.
+   2 BFS:Bredth first search explore neighbour moving to the next level,
+   tyically using queue
+
+    In DFS they are of three type:
+    1 pre-order traversal
+    2 inorder traversal
+    3 post order traversal
+  suntree:
+  depth:
+  height:
+  level:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//merge two sorted array.
+//stack notepad

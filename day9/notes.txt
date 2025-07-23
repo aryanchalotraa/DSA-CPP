@@ -1,0 +1,25 @@
+template:
+        Template is a base of genric programming in cpp.
+
+Generic Programmming:
+      Programming: which is independent of data type is called gneric programming
+
+- In cpp there is implementation of template id perform via two method:
+1. gneric fucnction.
+2. generic class.
+ 
+
+ Stack:
+ stack is a linear data structure that follow the LIFO(last in first out) principle.
+  -stack has one end only.
+  -it contain only one pointer to the topmost element of the satck.
+  
+  example : recursion 
+            Do and unDO  mechanism
+
+   Stack function:
+            1. push(): use to store the element in stack
+            2. pop(): use to remove element from the top of the stack.
+            3. top(): return the element at the top of the stack without removing it.
+            4.empty():  return true if stac is empty otherwise false.
+            5.size(): return number of element in stack.

@@ -1,0 +1,39 @@
+Map:
+ In c++ STL a map is  a container that store element in key-value pair. It is part of the standard TEmplate Library(STL) and is based on slf-balancing binary search tree (also known as red-black tree).
+
+  -It store value in key-value pairs.
+  - each key is unique.
+  -Automatically stores keys in sorted(ascending) order.
+  -Define inside header file<map>
+
+  complexity:
+  Insertion :o(log n)
+  Deletion : o(log n).
+  access: o(log n).
+  Search : o(log n).
+  Traverse : o(n).
+  
+
+  Function:
+  1 .Insert({key,value});
+  2. erase (k) , k is key.
+  3. find(k).
+  4 . clear(); remove all elements
+  5. size() return number of elements4
+  6. empty() check if map is empty.
+
+
+  Unordered map:
+    It is an associvate container that stores element as key-value pair.
+    Unlike map, it does not maintain any order of keys.
+    iT used a hash table for fast  access.
+    keys must be unque.
+    it define inside <Unordered_map> header file.
+
+  Complexity:
+  Insertion: o(1).
+  Deletion :o(1).
+  Access :o(1).
+  Search: o(1).
+    -some time when all keys collide and end up in a single bucket in this case
+      complexity will be o(n).

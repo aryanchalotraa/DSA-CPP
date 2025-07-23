@@ -70,7 +70,40 @@ void deleteSpec(node *head,int pos){
   temp->next=todelete->next;
   delete todelete;
 }
+// void delteSeries(node * head,int s,int e){
+//   for(int i=e ;i>s;i--){
+//     deleteSpec(head,i);
+//   }
+// }
+void deleteSeries(node*& head, int s, int e) {
+  node* current = head;
+  int pos = 0;
 
+  // Move to the start position
+  while (current && pos < s) {
+    current = current->next;
+    pos++;
+  }
+
+  // Delete nodes from s to e (inclusive)
+  while (current && pos <= e) {
+    node* temp = current;
+    current = current->next;
+
+    if (temp->prev) {
+      temp->prev->next = current;
+    } else {
+      head = current;  // if we're deleting the head
+    }
+
+    if (current) {
+      current->prev = temp->prev;
+    }
+
+    delete temp;
+    pos++;
+  }
+}
 
 int  main(){
   // node *head = new node(10);

@@ -1,0 +1,39 @@
+Searching:
+  search element one by one.
+  They are mainly two type:
+    1.Linear Search:
+      Search element one by one :
+      complexity : o(n).
+    Alogorithm:
+        1. start from the first element.
+        2. compare each element with the target.
+        3. If a match is found , return the index.
+        4. If end is reached without a match , return -1(not found).7 
+    2.Binary Search:
+    Divide and conure on sorted array.
+    Steps:
+      compare middle --> move left  or right
+    complexity : o(logn).
+     - Array must be sorted.
+    Sorting :
+    Arrranging array elements in increasing or decreasing order is called sorting.
+
+    1.Selection sort :
+    Algo:
+    1.start drom the first element.
+    2 Find the smallest element in the unsorted part of the array.
+    3 . swap it with the first element of the unsorted part.
+    4. move the boundary of the sorted part by one.
+    5. repeat until the entire array is sorted.
+
+    - Complexity:
+      best case, avg ,worst oN^2
+
+      2.Bubble sort:
+       1 . start from the first element.
+       2 compare each pair of adjacent element.
+       3 if the left eleement is greater,swap them
+       4 repeat the precoess for all element
+       5 after each pass the largest element bubble to end 
+       6 continue for n-1 passes or until no swap are neended.
+       time complexity : best case o(n^2),worst and avg case :0(n^2)

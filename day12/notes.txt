@@ -1,0 +1,32 @@
+queue: queue is a linear daat structure that stores the data in first in first out  order.
+
+eg:
+  printing pages in printer.
+  downloading files in some application.
+
+
+  -opeartaion implemented on the queue:
+  1 enqueue(); adding an element to the end of the queue.
+  2. dequeue(); : removing an element from the front of the queue.
+  3.front();retrieving the element at the front of the queue without removing it.
+  4. rear();Retrieving the element at the rear of the queue without removing it.
+  5. empty(): return true if queue is empty, otherwise it return false.
+-queue is define inside<queue> header file.
+-there are mainly four types of queue:
+1. simple queue(Linear Queue):
+
+2.circular queue:
+  the last poistion is connected back to the first to make a circle.
+    - Its prevent wastage of space in a linear queue.
+3. Priority queue:
+    Elements are based on priority ,  not just an order.
+     -Heigher pripority elements are dequeued before lower ones.   
+4. Double ended queue(Dequeue):
+    Insert and deletion can happen at both end(front and rear).
+  -(i) :input restricted queue: Insertion at only one end.
+  -(ii).putput restricted queue: deletion from only one end.
+Asymptotic Notation:
+  The complexity of an algorythm quantifies the amount of time taken by a program to run as a function of length of the input.
+   o(n):best case
+   o(n/2):avg case
+   o()

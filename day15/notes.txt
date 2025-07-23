@@ -1,0 +1,12 @@
+Insertion sort:
+Algo:
+Isertion sort is a single comparision beased sorting alogorithm.
+it nuild the final sorted array one element at a time, just like how you sort card.
+in your hand.
+
+algo 
+1.start from the second ele (idx 1)
+2 compare it with the element before it.
+3 shift the larger ele one poistion to the right.
+4 insert the curret ele at its correct postion .
+bet case o(n) avg and worsto(n^2)
